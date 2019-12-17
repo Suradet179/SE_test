@@ -2,14 +2,14 @@
 cd labtest(ชื่อ รีโพ)
 echo "# labtest" >> README.md
 
-cat README.md
+cat README.md ***
 git commit -m "first commit"
 git push -u origin master ////จะได้ไฟล์ README <>Code/////
 
 Sprint1 ดู#
 git checkout -b issue-123(เบอร์ของtask) master
-สร้างไฟล์ java เพิ่มเข้า folder
-git add ....ชื่อไฟล์ java..
+สร้างไฟล์ java เพิ่มเข้า folder --> labtest
+git add ....ชื่อไฟล์.java.....
 git commit -m "พิมคอมเม้น เช่น เพิ่มชื่อ และ ไฟล์ java - close #123"
 git checkout master
 git merge issue-123 --no-ff
